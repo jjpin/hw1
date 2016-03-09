@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>線上報名</title>
+</head>
+
+<body>
+	<label>姓名:</label>
+	<input name="name" type="text" id="name" tabindex="1" placeholder="請輸入姓名" maxlength="10" required/><br>
+
+	<label>學院:</label>
+    <select name="select-department" id="select-department">
+        <option value="Choice 1">商學院</option>
+        <option value="Choice 2">教育學院</option>
+        <option value="Choice 3">傳播學院</option>
+        <option value="Choice 4">外國語文學院</option>
+        <option value="Choice 5">理學院</option>
+        <option value="Choice 6">社會科學學院</option>
+        <option value="Choice 7">文學院</option>
+        <option value="Choice 8">法學院</option>
+        <option value="Choice 9">國際事務學院</option>
+    </select><br>
+
+    <label>手機:</label>
+    <input name="phone" type="text" id="phone" tabindex="1" placeholder="請輸入手機號碼" maxlength="10" required pattern="[0-9]{10}"/><br>
+
+	<label>Email:</label>
+    <input name="email" type="email" id="email" tabindex="2" placeholder="you@somewhere.com" required/><br>
+
+    <label>生日:</label>
+    <input name="BirthYear" type="text" id="BirthYear" tabindex="2" placeholder="請輸入出生年"/>
+    <label>西元年</label>
+    <input name="BirthMonth" type="text" id="BirthMonth" tabindex="2" placeholder="請輸入出生月"/>
+    <label>月</label>
+    <input name="BirthDay" type="text" id="BirthDay" tabindex="2" placeholder="請輸入出生日"/>
+    <label>日</label><br>
+
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</body>
+</html>
